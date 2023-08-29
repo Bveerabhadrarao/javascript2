@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body>
+	<label>Enter Name</label>
+	<input type="text" onkeyup="sample(this.value)" id="ins_id">
+	<br>
+	<span id="sp_id" style="color: red"></span><br>
+	<p>my name is:<span id="dem"></span></p>
+	<script type="">
+		function sample(str){
+			let k=document.getElementById('ins_id').value;
+			document.getElementById('dem').innerHTML=k;
+
+			if(str=='' || str.length<3 ){
+				document.getElementById('sp_id').innerText='please enter the name';
+				let p=document.getElementById('ins_id')
+				p.style.color='green';
+				p.style.border='5px solid red'
+			}
+			else{
+				document.getElementById('sp_id').textContent=' ';
+				document.getElementById('ins_id').style.border=""
+			}
+		}
+	</script>
+
+</body>
+</html>

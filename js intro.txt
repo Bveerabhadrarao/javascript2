@@ -1,0 +1,84 @@
+--->external file save as .js
+--->script tag is used to create external file
+--->if you decalre any variable use key word "var"(var a=10)
+--->+ is used to concate the variables(name='v'; name+='s')
+--->break statement=document.write("<br>")
+--->length of variable=document.write(name.length)
+--->when no value is given to the varible like(var a;)ten the output will be "undefined"
+
+--->JavaScript is a programming language designed for Web pages.
+JavaScript enhances Web pages with dynamic and interactive features
+JavaScript runs in client software.
+Developed by Netscape and Sun l Initiated by Netscape and called LiveScript l In parallel with this, Sun was developing Java.
+
+--->var is used for variable declaration in JavaScript.
+
+The var is function scoped, much like variables declared using the var keyword...
+
+
+--->let is used for variable declaration in JavaScript. 
+The let is block scoped, much like variables declared using the let keyword
+The let keyword was introduced in the later version of JavaScript known as ES6(ES2015). And it's the preferred way to declare variables.
+
+
+--->const is used for variable declaration in JavaScript.
+Much like variables declared using the const keyword.
+The value of a constant can't be changed through reassignment (i.e. by using the assignment operator).
+It can't be redeclared (i.e. through a variable declaration).
+If a constant is an object or array its properties or items can be updated or removed. 
+
+
+--->type(variable) is defined as the only what the type of variable type
+--->alert is a keyword which is used to create an alert box on the web page.
+--->console is a keyword which is  used to consider the console page in webpage.
+---> we have three types of windows.alert
+1)confirm
+2)promppt
+3)alert
+
+
+--->any two numbers we can add  we can use eval keyword
+--->if any any two numbers given by seperate variable we can use the parseInt key word like (parseInt(var)+parseInt(var))
+--->
+we have 3 kind of declaring the variables.
+1)var(global scope variable)(it can be use any were in the page)
+2)let--(t varible these are all the block level)(re declaration is not possible in this declaration)it is possible wen you intilize b=30 not let b=20 and it is called as block scope variable
+3)const--we never use the redeclarization and re intilization of the variable is called the const
+
+
+Functions
+--->function keyword and function name(arg1,arg2,...arg3)
+{
+   statement
+   return--optional
+   normal function with no arguments
+}
+Anonymousfunction:- it  is a function witout having name
+
+Arrow functions
+=>no function keyword
+after function name keep with =
+
+setTimeout() function
+callback function is a function of an argument inside the another function
+
+
+---->line by line execution is called synchronous
+---->otherwise asynchronous(some time wait and some time execute)
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+--->events
+1)events is nothing but action
+--->we have three ways of handle events
+a)Inline event handlers(by using event attributes in html
+   ex--button onclick
+b)
+c)
+2)there are many types of events
+a.mouse event(click,double click,mouseover,mouseout,mousemove)
+b.keyword event(key down,keyup,)
+c.focus event(focus ,blur,)
+d.form event 

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String methods</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let str='drive ready';
+		document.write(typeof(str));
+		document.write("<br>");
+		let str3=new String('drive ready');
+		document.write(typeof(str1));
+	</script>
+	<script type="text/javascript">
+		let str1='drive ready';
+		function ss(str_name){
+			document.write("<b>"+str_name+"</b><br>")
+		}
+		ss("original String="+str1)
+		ss("original String="+str1.length)
+		ss("String length="+str1[6])
+		ss("Char At method="+str1.charAt(0))// char at method
+		ss("index method="+str1.indexOf(4))// index  method
+		ss("Last index of="+str1.lastIndexOf('r'))// last index method
+		let str2=' veera         ';
+		ss("Trim method="+str2.trim())//remove the spaces from left to right 
+		//lower case
+		let str4='BhadraRao'
+		ss("Lower case="+str4.toLowerCase())
+		//for upper case
+		let str5='bhadrarao'
+		ss("upper case="+str5.toUpperCase())
+		let str8='neela'
+		let str9='sai'
+		let str6='shankar'
+		let str7='Nivas'
+		ss("concat string="+str8.concat(str9,str6,str7))
+		//includes()=>returns boolean value
+		let str10='fsd is a drive ready programme'
+		ss("Includes method="+str10.includes('ready'))//true
+		ss("Includes method="+str10.includes('morning'))//false
+		//conevrting my sting into an array
+		let str11='veera bhadrarao';
+		ss("Split method="+str11.split(""))
+		let str12='veera&nivas,ganesh'
+		console.log(str12.split("&"))//string divides based on deliminator"&"
+		console.log(str12.split(","))//string divides based on deliminator","
+		//startswith =>returns the boolean value
+		let str13='kingkohli';
+		ss("starts with="+str13.startsWith('k'))//true
+		ss("starts with="+str13.startsWith('u'))//false
+		//endswith =>returns the boolean value
+		let str14='kingkohli';
+		ss("Ends with="+str14.endsWith('i'))//true
+		ss("Ends with="+str14.endsWith('u'))//false
+		//slice method
+		ss("slice method="+str.slice(1,4))
+		ss("slice method="+str.slice(-4))
+		ss("slice method="+str.slice(-4,-2))
+		//substring methods
+		//it allows only positive indexes
+		ss("substring method="+str.substring(1,4))
+		ss("substring method="+str.substring(4,1))
+		ss("substring method="+str.substring(-1))//complete string will come
+		//substr method=>substr(strpos,length of the characters from 1st arg position)
+		ss("substr method="+str.substr(1,4))//rive
+		ss("substr method="+str.substr(1,6))//rive r
+	</script>
+	<body>
+		<table border="3px">
+			<tr>
+				<td>D</td>
+				<td>r</td>
+				<td>i</td>
+				<td>v</td>
+				<td>e</td>
+				<td></td>
+				<td>R</td>
+				<td>e</td>
+				<td>a</td>
+				<td>d</td>
+				<td>y</td>
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>-1</td>
+				<td>-2</td>
+				<td>-3</td>
+				<td>-4</td>
+				<td>-5</td>
+				<td>-6</td>
+				<td>-7</td>
+				<td>-8</td>
+				<td>-9</td>
+				<td>-10</td>
+			</tr>
+		</table>
+	</body>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kjj</title>
+</head>
+<body>
+	<!--<script type="text/javascript">
+		const foo=[1,2,5];
+		const[n]=foo;
+		console.log(n)
+	</script>-->
+	<script type="text/javascript">
+		var js=(function(x){
+			return x*x
+		}
+		(10));
+	</script>
+
+</body>
+</html>

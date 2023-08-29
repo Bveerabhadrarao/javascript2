@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>spread operators</title>
+</head>
+<body>
+	<h2>Spread operators</h2>
+	<p>It takes an iteration and expands  or seperate each element.</p>
+	<p>Notation as ...(triple dots)</p>
+
+</body>
+<script type="text/javascript">
+	//------------1st way------------//
+	let arr=[45,67,78,89];
+	//document.write(arr+"<br>");
+	//document.write(...arr);
+	//------------2nd way------------//
+	let arr1=[3,6,...arr];
+	//console.log(arr1)
+	//------------3rd way------------//
+	let arr3=[4,5,6,7,8]
+	let arr4=[89,87,67,65,54,45]
+	//let arr5=[arr3,arr5];
+	//let arr5=[...arr3,...arr4]
+	let arr5=[...arr3,10,11,...arr4,9,8];
+	//document.write(arr5);
+	//-------------4th way-----------//
+	let str='drive ready'
+	//document.write(str);
+	//document.write(...str)
+	function sum(a,b,c,d,e){
+		console.log(a+b+c+d+e)
+	}
+	let arr6=[30,50,60,70,80]
+	//sum(arr6[0],arr6[1],arr6[2],arr6[3])
+	sum(...arr6)
+</script>
+</html>

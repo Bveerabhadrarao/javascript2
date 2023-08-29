@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String Methods</title>
+</head>
+<body>
+	<h3>String Methods</h3>
+	<script type="text/javascript">
+		let str1='veerabhadrarao';
+		function kk(str_name){
+		document.write("<b>"+str_name+"</b><br>")
+		}
+		kk("substr method="+str1.substr(1,4)+"<br>")
+		kk("substring method="+str1.substring(1,4)+"<br>")
+		let str2='boddeti';
+		kk("replace method="+str2.replace("veerabhadrarao","boddeti")+"<br>")
+		let str3='bhadrarao'
+		kk("index method="+str3.indexOf(4)+"<br>")
+		kk("Last index of="+str3.lastIndexOf('o')+"<br>")
+		kk("search method="+str3.search('d')+"<br>")
+		let str4='this is a cat'
+		kk("Includes method="+str4.includes('is')+"<br>")
+		kk("Includes method="+str4.includes('for')+"<br>")
+		let str5='BhadraRao'
+		kk("Lower case="+str5.toLowerCase()+"<br>")
+		let str6='bhadrarao'
+		kk("Upper case="+str5.toUpperCase()+"<br>")
+		kk("String length="+str5[6]+"<br>")
+		kk("Char At method="+str5.charAt(0)+"<br>")
+		let str7=' veera         ';
+		kk("Trim method="+str7.trim()+"<br>")
+		let str8='bodddeti'
+		let str9='veera'
+		let str10='bhadra'
+		let str11='rao'
+		kk("concat string="+str8.concat(str9,str10,str11)+"<br>")
+		let str12='veera bhadrarao';
+		kk("Split method="+str12.split(" ")+"<br>")
+		let str13="veerabhadrarao,nivas,ganesh";
+		kk("slice method="+str13.slice(10,16)+"<br>")
+		let str14="Hi Hello";
+		kk("charCodeAt method="+str14.charCodeAt(0)+"<br>")
+		let str15="veerabhadrarao";
+		kk("to stringn method="+str15.toString()+"<br>")
+		let str16="The rain in SPAIN stays mainly in the plain";
+		kk("match method="+str16.match('ain')+"<br>")
+		let str17="Hello Everyone";
+		kk("valueof method="+str17.valueOf())
+	</script>
+
+</body>
+</html>

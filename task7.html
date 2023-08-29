@@ -1,0 +1,107 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Images Sliding</title>
+	<style type="text/css">
+		#div1{
+			margin-left: 20px;
+		}
+		#div2{
+			margin-left: 20px;
+			margin-top: 200px;
+		}
+		#div3{
+			margin-left: 20px;
+		}
+		#img1{
+			cursor: pointer;
+			height: 170px;
+			width: 300px;
+		}
+		#div11{
+			margin-top: 20px;
+		}
+		#div12{
+			margin-top: 20px;
+		}
+		.previousround{
+			font-size: 40px;
+		}
+		.nextround{
+			font-size: 40px;
+		}
+	</style>
+</head>
+<body>
+<center>
+	<div style="height:600px;width: 1100px; border: 1px solid black;">
+
+		<div style="height:600px;width: 450px; border: 1px solid black; float: left;" id="div1" >
+			<div style="height:170px;width: 300px; border: 1px solid black;" id="div11" onclick="myfun('10.jpg')" onclick="myfun1('10.jpg')"><img src="10.jpg" id="img1" ></div>
+			<div style="height:170px;width: 300px; border: 1px solid black;" id="div11" onclick="myfun('11.jpg')"><img src="11.jpg" id="img1"></div>
+			<div style="height:170px;width: 300px; border: 1px solid black;" id="div11" onclick="myfun('9.jpg')"><img src="9.jpg" id="img1"></div>
+		</div>
+
+		<div style="height:110px;width: 60px; border: 1px solid black;float: left;" id="div2">
+			<a href="#" class="previousround">&#8249;</a><br>
+            <a href="#" class="nextround">&#8250;</a>
+		</div>
+
+		<div style="height:600px;width: 450px; border: 1px solid black; float: left;" id="div3" >
+			<div style="height:170px;width: 300px; border: 1px solid black;" id="div11"><img src="7.jpg" id="img1" onclick="myfun(this)"></div>
+			<div style="height:170px;width: 300px; border: 1px solid black;" id="div11"><img src="6.jpg" id="img1" onclick="myfun(this)"></div>
+			<div style="height:170px;width: 300px; border: 1px solid black;" id="div12" onclick="myfunout()"></div>
+		</div>
+	</div>
+</center>
+<script type="text/javascript">
+	function myfun(imgs) {
+		document.getElementById('div12').innerHTML="<img src='"+imgs+"'style='height:170px;width:300px;'/>";
+    }
+    function myfun1(imgs){
+    	document.getElementById('div11').innerHTML=""
+    }
+</script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center><h1>Student Form</h1>
+    <h3>Enter Your Details</h3>
+    <form id="fom" onsubmit="return validateForm()">
+        First Name : <input type="text" name="fname" id="fname_id"><br><br>
+        Last Name : <input type="text" name="lname" id="lname_id"><br><br>
+        Date of birth : <input type="date">
+        Select College : <select name="college" id="clg_id">
+            <option value="">---Select College---</option>
+            <option value="AEC">Aditya Engineering College</option>
+            <option value="ACET">Aditya College of Engineering and Technology</option>
+            <option value="ACOE">Aditya College of Engineering</option>
+        </select><br><br>
+        Select District : <select name="college" id="clg_id">
+            <option value="">---Select district---</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="WEST_GODAVARI">east Godavari</option>
+        </select><br><br>
+        Gender : Male<input type="radio" name="gender">
+        Female<input type="radio" name="gender">
+        others<input type="radio" name="gender">
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="Reset" value="Reset">
+    </form>
+	</center>
+    <script>
+        function sample(){
+            document.getElementById('fom').submit()
+        }
+    </script>
+</body>
+</html>

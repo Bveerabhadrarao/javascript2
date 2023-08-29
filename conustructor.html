@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>constructor</title>
+</head>
+<body>
+	<!--<script type="text/javascript">
+		class Student{
+			constructor(rno,fname,lname,mname){
+				this.rollno=rno;
+				this.firstname=fname;
+				this.lastname=lname;
+				this.middlename=mname;
+			}
+
+		}
+		let obj=new Student(1234,'ganesh','nivas','veerabhadrarao')
+		document.write(obj.rollno,obj.firstname,obj.lastname,obj.middlename+"<br>")
+		let obj2=new Student(56566,'menda','ponthapalli','boddeti')
+		document.write(obj2.rollno,obj2.firstname,obj2.lastname,obj2.middlename)
+	</script>-->
+	<script type="text/javascript">
+		class car{
+			constructor(name,model,price,color){
+				this.carname=name;
+				this.carmodel=model;
+				this.carprice=price;
+				this.carcolor=color;
+				this.getfullname=function(){
+					return this.carname+" "+this.carcolor
+				}
+
+			}
+
+		}
+		let g1=new car('Dezire','verion4.5','13 lakhs','blue')
+		document.write(g1.carname,g1.carmodel,g1.carprice,g1.carcolor+"<br>");
+		document.write(g1.getfullname())
+		
+	</script>
+	<script type="text/javascript">
+		
+	</script>
+
+</body>
+</html>

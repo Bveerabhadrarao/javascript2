@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events</title>
+</head>
+<body>
+	<!--<button onclick="test()">click here</button>-->
+	<!--<script type="text/javascript">
+		function test(){
+			alert("testing")
+			document.body.style.background='skyblue'
+		}
+	</script>-->
+	<!--<button id="btn_id">click here</button>
+	<script type="text/javascript">
+		let btn=document.getElementById('btn_id')
+		//with function name
+		//btn.onclick=test
+		//funxtion test(){
+			//alert("testing")
+		//}
+		//with anonymous function
+		btn.onclick=function(){
+			alert("testing...")
+		}
+	</script>-->
+	<!--<button onclick="fun1()">seek</button>
+	<button onclick="fun2()">hide</button>
+	<h1 id="n">veerabhadrarao</h1>
+	<script>
+		function fun1(){
+			document.getElementById('n').style.display="block";
+		}
+		function fun2(){
+			document.getElementById('n').style.display="none";
+		}
+		
+	</script>-->
+	<button id="btn">click here</button>
+	<script type="text/javascript">
+		let k=document.getElementById('btn')
+		k.addEventListener("click",test)
+		function test(){
+			alert('testing..')
+		}
+
+	</script>
+
+
+</body>
+</html>
